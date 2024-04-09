@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.forgot-password-main{
+    max-width: 50%;
+    height: 480px;
+    box-shadow: 0px 0px 6px 2px #e1e1e1;
+    position: relative;
+    top: 60px;
+    margin: 0px auto;
+}
+.forgot-img img{
+    width: 80px;
+    margin: 0px auto;
+    display: block;
+    padding: 60px 0px 0px 0px;
+    margin-bottom: 20px;
+}
+.forgot-text h2{
+    text-align: center;
+    font-family: math;
+    font-size: 40px;
+}
+.input-field-forgot input{
+max-width: 53%;
+width: 53%;
+padding: 8px;
+position: relative;
+margin: 0px auto;
+margin-top: 20px;
+}
+
+.forgot-button button {
+    background: #FFC000;
+    border: none;
+    padding: 6px 24px;
+    font-size: 16px;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+    top: 40px;
+}
+
+/* Media Query Starting Here */
+@media only screen and (max-width:767px){
+    .forgot-password-main{
+        max-width: 100%;
+        height: 400px;
+    }
+    .forgot-img img {
+        width: 62px;
+        padding: 26px 0px 0px 0px;
+    }
+    .forgot-text h2{
+        font-size: 22px;
+    }
+    .input-field-forgot input{
+        width: 90%;
+        max-width: 90%;
+    }
+}

@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-section-email {
+    box-shadow: 0px 0px 6px 2px #e1e1e1;
+    height: 420px;
+    position: relative;
+    top: 50px;
+}
+.logo-section-email img {
+    padding: 64px 0px 10px 60px;
+}
+.text-email h4 {
+    text-align: center;
+    max-width: 50%;
+    margin: 0px auto;
+    font-weight: 400;
+}
+
+div#Enter-email-email input {
+    max-width: 40%;
+    margin: 0px auto;
+    position: relative;
+    top: 40px;
+    border: 1px solid #c7c8c9;
+}
+.email-btn a button{
+    background-color: #FFC000;
+    border: none;
+    font-weight: 500;
+    padding: 8px 18px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    position: relative;
+    bottom: 52px;
+    cursor: pointer;
+}
+
+/* ==================== Media Query Starting Here ==================== */
+
+@media only screen and (max-width:767px){
+    .main-section-email{
+        height: 350px;
+    }
+    .logo-section-email img {
+        padding: 24px 0px 0px 0px;
+        margin: 0px auto;
+        display: block;
+    }
+    .text-email h4 {
+        font-size: 22px;
+        margin-top: 6px;
+        max-width: 100%;
+    }
+    .text-email hr {
+        max-width: 60% !important;
+        margin-top: 12px !important;
+    }
+    div#Enter-email-email input{
+        max-width: 90%;
+        top: 30px;
+    }
+    .email-btn a button{
+        bottom: 80px;
+    }
+}

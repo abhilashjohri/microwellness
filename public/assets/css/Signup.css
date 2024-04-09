@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* ========== Signup section start here ========= */
+
+
+.Signin-main-section{
+	    height: 720px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 6px 2px #e1e1e1;
+    position: relative;
+    top: 60px;
+    margin: 0px auto;
+    display: flex;
+}
+.Signin-main-section h2{
+	font-size: 40px;
+    width: 540px;
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+    font-family: math;
+}
+span.Span-colors {
+    color: #ffd105;
+}
+form#Email-address {
+    max-width: 67%;
+    position: relative;
+    left: 104px;
+    top: 10px;
+        border-bottom: 1px solid;
+}
+.signin-button button {
+        position: relative;
+    top: 48px;
+    left: 106px;
+    padding: 6px 20px;
+    font-weight: 600;
+    border: 2px solid #FFC000;
+    background: none;
+}
+.signin-text h5 a  {
+       position: relative;
+    top: 73px;
+    left: 105px;
+    text-decoration: none;
+    color: #000;
+}
+
+/*====================Media Query starting here====================*/
+@media only screen and (max-width:1024px){
+    .Signin-main-section{
+        display: block;
+        height: auto;
+    }
+    .Signup-main-section-img img {
+        height: auto;
+        position: relative;
+        top: 93px;
+    }
+}
+
+@media only screen and (max-width:420px){
+    .Signup-main-section-img img{
+        height: 378px;
+    }
+    .Signin-main-section h2{
+        width: 300px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .Signin-main-section{
+        display: block;
+        top: 40px;
+        left: -0;
+        max-width: 400px;
+    }
+    .Signin-main-section h2 {
+        font-size: 30px;
+        padding: 10px;
+        width: 270px;
+
+    }
+    form#Email-address{
+        left: 24px;
+    }
+    .Signup-main-section-img img{
+        height: 456px !important;
+        top: 26px;
+        position: relative;
+    }
+    form#Email-address{
+        max-width: 80%;
+    }
+    .signin-button button {
+        top: 38px;
+        left: 24px;
+    }    
+    .signin-text h5 a {
+        top: 53px;
+        left: 23px;}
+}

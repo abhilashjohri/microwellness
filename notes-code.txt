@@ -1,0 +1,12 @@
+http://localhost/Guards-webs-ci4/
+http://localhost/Guards-webs-ci4/guardsmap
+http://localhost/Guards-webs-ci4/companyregistration
+
+login and register   
+https://www.tutsmake.com/codeigniter-4-login-and-registration-tutorial-example/
+
+http://localhost/Guards-webs-ci4/dashboard
+http://localhost/Guards-webs-ci4/login
+http://localhost/Guards-webs-ci4/register
+
+time 12pm to 2.50am

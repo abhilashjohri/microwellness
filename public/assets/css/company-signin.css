@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.Signup-main-section{
+	    /* height: 590px;
+    max-width: 1000px; */
+    box-shadow: 0px 0px 6px 2px #e1e1e1;
+    position: relative;
+    top: 80px;
+    margin: 0px auto;
+    display: flex;
+}
+.Signup-main-section h2{
+	font-size: 40px;
+    width: 540px;
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+    font-family: math;
+}
+span.Span-colors {
+    color: #ffd105;
+}
+/* form#Email-address {
+    max-width: 67%;
+    position: relative;
+    left: 104px;
+    top: 40px;
+        border-bottom: 1px solid;
+} */
+.signup-button button {
+        position: relative;
+    top: 48px;
+    /* left: 106px; */
+    padding: 6px 20px;
+    font-weight: 600;
+    border: 2px solid #FFC000;
+    background: none;
+}
+.signup-text h5 a  {
+       position: relative;
+    top: 90px;
+    /* left: 105px; */
+    text-decoration: none;
+    color: #000;
+}
+/* label.signin-pswd {
+    position: relative;
+    margin-bottom: 40px;
+    top: 40px;
+    left: -150px;
+} */
+input#Email-cp-pg {
+    border-bottom: 1px solid #000 !IMPORTANT;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+input#Password-cp-pg{
+    border-bottom: 1px solid #000 !IMPORTANT;
+    border-radius: 2px;
+}
+/* ========== Signup section start here ========= */
+
+
+.Signin-main-section{
+	    height: 590px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 6px 2px #e1e1e1;
+    position: relative;
+    top: 160px;
+    margin: 0px auto;
+    display: flex;
+}
+.Signin-main-section h2{
+	font-size: 40px;
+    width: 540px;
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+}
+span.Span-colors {
+    color: #ffd105;
+}
+form#Email-address-cp-pg {
+    max-width: 67%;
+    position: relative;
+    left: 104px;
+    top: 40px;
+        /* border-bottom: 1px solid; */
+}
+.signup-button-cp-pg button {
+        position: relative;
+    top: 88px;
+    left: 106px;
+    padding: 6px 20px;
+    font-weight: 600;
+    border: 2px solid #FFC000;
+    background: none;
+}
+.signup-text-cp-pg h5 a  {
+       position: relative;
+    top: 120px;
+    left: 105px;
+    text-decoration: none;
+    color: #000;
+}
+label.error{
+    color: red;
+}
+
+/*====================Media Query starting here====================*/
+@media only screen and (max-width:768px){
+    .Signup-main-section{
+        display: block;
+        height: auto;
+    }
+    .Signup-main-section-img img{
+        height: 870px !important;
+        top: 110px;
+        position: relative;
+    }
+    .Signup-main-section h2{
+        padding: 10px;
+        width: 310px;
+    }
+    form#Email-address-cp-pg {
+left: 24px;
+    }
+    .Signup-main-section{
+        top: 30px;
+    }
+    .signup-button button {
+        top: 68px;
+        left: 24px;
+    }
+    .signup-text h5 a{
+        top: 90px;
+        left: 24px;
+    }
+}
+@media only screen and (max-width:767px){
+    .Signup-main-section{
+        height: auto;
+        display: inline;
+    }
+    .Signup-main-section h2{
+        font-size: 30px;
+        padding: 10px 0px ;
+        max-width: 360px;
+    }
+    form#Email-address-cp-pg{
+        left: 10px;
+        max-width: 90%;
+        top: 16px;
+    }
+    .Signup-main-section-img img{
+        height: 450px !important;
+        top: 82px;
+        position: relative;
+    }
+    .signup-button button{
+        left: 10px;
+        top: 46px;
+    }
+    .signup-text h5 a{
+        left: 10px;
+        top: 64px;
+    }
+    .Signup-main-section{
+        top: 22px;
+    }
+    .Signup-main-section-img {
+        text-align: center;
+    }
+}
+@media only screen and (max-width:420px){
+    .Signup-main-section h2{
+        max-width: 312px;
+    }
+    .Signup-main-section-img img {
+        height: 388px !important;
+    }
+}

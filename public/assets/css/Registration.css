@@ -1,0 +1,280 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.error{
+    color: red;
+    font-size: 18px;
+    /* margin-left: 10px; */
+   }
+.input-clr{
+background: #e7e7e7;
+border: none;
+padding: 10px;
+/*    border-radius: 6px;*/
+color: #000;
+position: relative;
+/* left: 297px; */
+width: 240px;
+margin-left: 100px;
+}
+input#city {
+    margin-left: 118px !important;
+}
+input#state {
+    margin-left: 108px !important;
+}
+.Register_banner{
+background-image: url(./Images/Guardsregs.jpg);
+height: 410px;
+background-size: cover;
+}
+.Register_banner h2{
+font-size: 60px;
+color: #FFC000;
+font-family: math;
+padding: 110px 0px 0px 0px;
+margin-bottom: 0px;
+}
+.Register_banner h3{
+color: #ffffff;
+font-size: 50px;
+font-family: math;
+}
+.registration-field h3{
+font-size: 50px;
+/*    margin-top: 10px;*/
+padding: 30px 0px;
+font-family: math;
+}
+.registration-img img{
+margin-top: 10px;
+padding: 30px 0px;
+}
+.text-filed1 label {
+font-size: 20px;
+}
+.text-filed2 label {
+font-size: 20px;
+}
+.text-filed3 label {
+font-size: 20px;
+}
+.text-filed1{
+margin-bottom: 20px;
+}
+.text-filed2{
+margin-bottom: 20px;
+}
+/*.text-filed3{
+margin-bottom: 20px;
+}*/
+label#label-wdt {
+width: 90%;
+}
+.registration-img{
+display: flex;
+gap: 20px;
+bottom: 80px;
+position: relative;
+}
+.Guard-card-no h3{
+padding: 30px 0px;
+font-family: math;
+}
+.Guard-card-no label{
+font-size: 20px;
+}
+.Guard-card-no input {
+/* position: relative;
+left: 247px; */
+border: none;
+margin-left: 15px;
+}
+.check-box-armeds{
+padding: 30px 0px 0px 0px;
+}
+.check-box-armeds label{
+font-size: 20px;
+}
+.guard-certified-text h3{
+font-family: math;
+padding: 30px 0px;
+margin-bottom: 0px;
+}
+label {
+font-size: 18px;
+}
+div#suard-sec-margins {
+padding: 12px 0px;
+}
+.looking_guard h3{
+font-family: math;
+padding: 30px 0px;
+margin-bottom: 0px;
+}
+.available-guard h3{
+font-family: math;
+padding: 30px 0px;
+margin-bottom: 0px;
+}
+#available-guard-pd{
+padding-left: 0px;
+}
+label#label-wdt-weekly {
+width: 50%;
+}
+.shift-guard h3{
+font-family: math;
+padding: 30px 0px;
+margin-bottom: 0px;
+}
+label#label-wdt-shift {
+width: 44%;
+}
+#id{
+padding-left: 0px;
+}
+.Note-guards h3{
+font-family: math;
+padding: 30px 0px;
+margin-bottom: 0px;
+}
+.Note-guards p{
+font-size: 16px;
+}
+input#Expire {
+background: #e7e7e7;
+width: 240px;
+padding: 10px;
+margin-left: 100px;
+}
+div#pd-5 {
+padding: 0px 0px 0px 100px !important;
+}
+div#pd-5-img {
+padding: 0px 0px 0px 95px;
+}
+div#week-section-width-page {
+max-width: 23.2%;
+}
+.registration-btn button{
+    background-color: #FFC000;
+    color: black;
+    border: none;
+    padding: 6px 20px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    cursor: pointer !IMPORTANT;
+    margin-top: 10px;
+}
+.main-form-images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*================================ Media Query starting here======================== */
+@media only screen and (max-width:1024px){
+    .Register_banner{
+        height: 190px;
+        background-size: cover;
+    }
+    .Register_banner h2{
+        font-size: 40px;
+        padding: 20px 0px;
+    }
+}
+@media only screen and (max-width:767px){
+    .Register_banner h2 {
+        font-size: 22px;
+        padding: 10px 0px;
+    }
+    .Register_banner h3 {
+        font-size: 30px;
+    }
+    div#pd-5-img{
+        padding: 0px;
+    }
+    .registration-img{
+        bottom: 0px;
+        gap: 4px;
+    }
+    .input-clr{
+        margin-left: 40px;
+    }
+    input#city {
+        margin-left: 60px !important;
+    }
+    input#state {
+        margin-left: 48px !important;
+    }
+    .registration-field h3{
+        font-size: 26px;
+        padding: 14px 0px;
+    }
+    .Register_banner {
+        height: 99px;
+        background-size: cover;
+    }
+    input#Expire {
+        margin-left: 40px;
+    }
+    .Guard-card-no h3 {
+        padding: 10px 0px;
+        font-size: 20px;
+    }
+    div#pd-5{
+        padding: 14px !important;
+    }
+    .registration-img img {
+        margin-top: 0px;
+        padding: 20px 0px;
+    }
+    .guard-certified-text h3 {
+        padding: 20px 0px;
+        font-size: 20px;
+        max-width: 390px;
+    }
+    label#label-wdt {
+        width: 60%;
+        max-width: 60%;
+    }
+    .looking_guard h3 {
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+    label {
+        font-size: 16px;
+    }
+    .available-guard h3{
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+    div#week-section-width-page {
+        max-width: 50%;
+        padding: 10px;
+        margin-top: 0px !important;
+    }
+    .shift-guard h3{
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+    #prefer-shirf-pd {
+        padding: 0px 13px !important;
+    }
+    label#label-wdt-shift {
+        width: 50%;
+        padding: 10px 0px;
+    }
+    .Note-guards h3{
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+    .Note-guards p {
+        font-size: 14px;
+    }
+    input#Armed {
+        margin-left: 0px !important;
+    }
+}
